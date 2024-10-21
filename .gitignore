@@ -1,0 +1,38 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.dotsettings.user
+
+# Next.js
+.next
+out
+
+# Environment files
+.env
+
+# Cache
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+storybook-static
+
+# Chromatic logs
+**/build-storybook.log
+**/chromatic.log
+**/chromatic-diagnostics.json
